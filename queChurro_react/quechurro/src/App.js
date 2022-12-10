@@ -1,4 +1,5 @@
 import Header from './Componets/Header/Header';
+import Hero from './Componets/Hero/Hero';
 import './App.css';
 import './assets/vendor/bootstrap/css/bootstrap.min.css'
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css'
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Hero/>
     </div>
   );
 }
