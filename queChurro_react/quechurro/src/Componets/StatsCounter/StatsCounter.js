@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import AOS from 'aos';
-import PureCounter from '@srexi/purecounterjs';
 
 export default  function StatsCounter(){
     useEffect(() => {
