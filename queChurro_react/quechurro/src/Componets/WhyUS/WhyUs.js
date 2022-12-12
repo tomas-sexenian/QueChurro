@@ -1,10 +1,6 @@
-import React, {useEffect} from 'react'
-import AOS from 'aos';
+import React from 'react'
 
 export default function WhyUs(){
-    useEffect(() => {
-        AOS.init();
-      }, [])
     return (
         <section id="why-us" className="why-us section-bg">
             <div className="container" data-aos="fade-up">

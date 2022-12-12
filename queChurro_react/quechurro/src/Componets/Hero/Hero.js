@@ -1,12 +1,8 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import queChurroLogo from '../.././assets/img/quechurro_logo.jpg';
 import './Hero.css'
-import AOS from 'aos';
 
 export default function Hero(){
-  useEffect(() => {
-    AOS.init();
-  }, [])
   return (
     <section id="hero" className="hero d-flex align-items-center section-bg" >
     <div className="container">

@@ -1,11 +1,8 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import queChurroAsset from '../.././assets/img/quechurro_asset3.jpg';
-import AOS from 'aos';
+import './About.css'
 
 export default function About(){
-    useEffect(() => {
-        AOS.init();
-      }, [])
       return (
         <section id="about" className="about">
           <div className="container" data-aos="fade-up">
@@ -14,7 +11,7 @@ export default function About(){
               <p>Conocé un poco sobre <span>el mejor churro del Uruguay</span></p>
             </div>
             <div className="row gy-4">
-              <div className="col-lg-7 position-relative about-img" data-aos="fade-up" data-aos-delay="150">
+              <div className=" PoneteContacto col-lg-7 position-relative about-img" data-aos="fade-up" data-aos-delay="150">
                 <div className="call-us position-top">
                   <h4>Ponete en contacto</h4>
                   <p>+598 95 425 240</p>

@@ -1,10 +1,6 @@
-import React, {useEffect} from 'react'
-import AOS from 'aos';
+import React from 'react'
 
 export default  function StatsCounter(){
-    useEffect(() => {
-        AOS.init();
-      }, [])
       return (
         <section id="stats-counter" className="stats-counter">
         <div className="container" data-aos="zoom-out">

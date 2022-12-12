@@ -13,8 +13,16 @@ import './assets/css/blobz-screen-sizes.css'
 import About from './Componets/About/About';
 import WhyUs from './Componets/WhyUS/WhyUs';
 import StatsCounter from './Componets/StatsCounter/StatsCounter';
+import AOS from 'aos';
+import {useEffect} from 'react'
+import PureCounter from '@srexi/purecounterjs'
 
 function App() {
+  const pure = new PureCounter();
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div className="App">
       <Header/>
