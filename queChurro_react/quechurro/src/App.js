@@ -32,7 +32,7 @@ function App() {
       <About/>
       <WhyUs/>
       <StatsCounter/>
-      {/*<Menu/>*/}
+      <Menu/>
     </main>
     </div>
   );

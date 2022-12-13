@@ -6,7 +6,7 @@ function Header() {
         <div className="container d-flex align-items-center justify-content-between">
 
           <div className="logo d-flex align-items-center me-auto me-lg-0">
-            <h1>QuéChurro<span>.</span></h1>
+            <h1><a href="#hero">QuéChurro<span>.</span></a></h1>
           </div>
 
           <nav id="navbar" className="navbar">

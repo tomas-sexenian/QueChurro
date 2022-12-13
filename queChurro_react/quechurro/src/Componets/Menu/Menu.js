@@ -1,10 +1,10 @@
 import React from 'react'
-import { Img } from 'react'
 import './Menu.css'
+import menuimg from './menu_images/cafeNB.png'
 
 export default function Menu(){
 
-    const estiloImg = {
+    const estiloimg = {
         height: '60%',
         width: '70%'
     }
@@ -25,7 +25,7 @@ export default function Menu(){
                     <div className="row gy-5">
 
                         <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/churroNB.png" className="glightbox"><Img src="./menu_images/churroNB.png" className="menu-img img-fluid" /></a>
+                            <a href="." className="glightbox"><img src={menuimg} className="menu-img img-fluid" /></a>
                             <h4>Churros comunes</h4>
                             <p className="ingredients">
                             Masa y azucar
@@ -33,7 +33,7 @@ export default function Menu(){
                         </div>
 
                         <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/refrescoNB.png"className="glightbox"><Img src="./menu_images/refrescoNB.png" className="menu-img img-fluid" style={estiloImg} /></a>
+                            <a href="./menu_images/refrescoNB.png"className="glightbox"><img src={menuimg} className="menu-img img-fluid" style={estiloimg} /></a>
                             <h4>Refrescos</h4>
                             <p className="ingredients">
                             Anda a saber que tienen
@@ -41,7 +41,7 @@ export default function Menu(){
                         </div>
 
                         <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/licuadoNB.png" className="glightbox"><Img src="./menu_images/licuadoNB.png" className="menu-img img-fluid" style={estiloImg} /></a>
+                            <a href="./menu_images/licuadoNB.png" className="glightbox"><img src={menuimg} className="menu-img img-fluid" style={estiloimg} /></a>
                             <h4>Licuados</h4>
                             <p className="ingredients">
                             Fruta, azucar y hielo
@@ -49,7 +49,7 @@ export default function Menu(){
                         </div>
 
                         <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/cafeNB.png" className="glightbox"><Img src="./menu_images/licuadoNB.png" className="menu-img img-fluid" style={estiloImg} /></a>
+                            <a href="./menu_images/cafeNB.png" className="glightbox"><img src={menuimg} className="menu-img img-fluid" style={estiloimg} /></a>
                             <h4>Café</h4>
                             <p className="ingredients">
                             Palitos en el puesto de al lado
