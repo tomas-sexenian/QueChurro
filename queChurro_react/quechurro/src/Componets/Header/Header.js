@@ -13,13 +13,13 @@ function Header() {
 
           <nav id="navbar" className="navbar">
             <ul>
-              <li><a>Inicio</a></li>
-              <li><a>Acerca de QuéChurro</a></li>
-              <li><a>Menu</a></li>
-              <li><a>Eventos</a></li>
-              <li><a>Reservas</a></li>
-              <li><a>Galería</a></li>
-              <li><a>Contacto</a></li>
+            <li><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Acerca de QuéChurro</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Eventos</a></li>
+          <li><a href="#book-a-table">Reservas</a></li>
+          <li><a href="#gallery">Galería</a></li>
+          <li><a href="#contact">Contacto</a></li>
             </ul>
           </nav>
 
