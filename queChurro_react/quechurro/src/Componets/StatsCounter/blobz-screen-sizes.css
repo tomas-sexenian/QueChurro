@@ -1,0 +1,19 @@
+/*Styles for center blobs*/
+
+.main-blob{
+    max-height:450px !important; max-width: 450px !important;
+}
+
+.secondary-blob{
+    max-height:300px !important; max-width: 300px !important;
+}
+
+@media (max-width: 420px) and (max-height: 900px){
+    .main-blob{
+        display: none;
+    }
+    
+    .secondary-blob{
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+.blob{
+    z-index: 1;
+    opacity: 0.75;
+}
+
+.firstBlob{
+    --time: 30s;
+    --amount: 5;
+    --fill: #212529;
+    margin: -9.5% 35% 0px 0px !important;
+}
+
+.secondBlob{
+    --time: 20s;
+    --amount: 10;
+    --fill: #e65e18;
+    margin: -5% 35% 0px 5% !important;
+}
+
+.thirdBlob{
+    --time: 30s;
+    --amount: 5;
+    --fill: #212529;
+    margin: -9.5% 35% 0px 35% !important;
+}
+
+.fourthBlob{
+    --time: 20s;
+    --amount: 10;
+    --fill: #e65e18;
+    margin: -5% 35% 0px 40% !important;
+}
+
+.fifthBlob{
+    --time: 30s;
+    --amount: 5;
+    --fill: #212529;
+    margin: -9.5% 35% 0px 70% !important;
+}
+
+.sixthBlob{
+    --time: 20s;
+    --amount: 10;
+    --fill: #e65e18;
+    margin: -5% 35% 0px 75% !important;
+}
