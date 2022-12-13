@@ -13,6 +13,7 @@ import './assets/css/blobz-screen-sizes.css'
 import About from './Componets/About/About';
 import WhyUs from './Componets/WhyUS/WhyUs';
 import StatsCounter from './Componets/StatsCounter/StatsCounter';
+import Menu from './Componets/Menu/Menu'
 import AOS from 'aos';
 import {useEffect} from 'react'
 import PureCounter from '@srexi/purecounterjs'
@@ -31,6 +32,7 @@ function App() {
       <About/>
       <WhyUs/>
       <StatsCounter/>
+      {/*<Menu/>*/}
     </main>
     </div>
   );
