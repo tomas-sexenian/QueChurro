@@ -1,12 +1,26 @@
 import React from 'react'
 import './Menu.css'
-import menuimg from './menu_images/cafeNB.png'
+import cafeNB from './menu_images/cafeNB.png'
+import churroNB from './menu_images/churroNB.png'
+import licuadoNB from './menu_images/licuadoNB.png'
+import refrescoNB from './menu_images/refrescoNB.png'
+
 
 export default function Menu(){
 
-    const estiloimg = {
+    const estiloDefault= {
         height: '60%',
         width: '70%'
+    }
+
+    const estiloCafe = {
+        height: '50%',
+        width: '60%'
+    }
+
+    const estiloRefresco = {
+        height: '60%',
+        width: '50%'
     }
 
     return (
@@ -25,23 +39,15 @@ export default function Menu(){
                     <div className="row gy-5">
 
                         <div className="col-lg-4 menu-item">
-                            <a href="." className="glightbox"><img src={menuimg} className="menu-img img-fluid" /></a>
-                            <h4>Churros comunes</h4>
+                            <a href="/menu_images/cafeNB.png" className="glightbox"><img src={cafeNB} className="menu-img img-fluid" style={estiloCafe}/></a>
+                            <h4>Café</h4>
                             <p className="ingredients">
-                            Masa y azucar
+                            Palitos en el puesto de al lado
                             </p>
                         </div>
 
                         <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/refrescoNB.png"className="glightbox"><img src={menuimg} className="menu-img img-fluid" style={estiloimg} /></a>
-                            <h4>Refrescos</h4>
-                            <p className="ingredients">
-                            Anda a saber que tienen
-                            </p>
-                        </div>
-
-                        <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/licuadoNB.png" className="glightbox"><img src={menuimg} className="menu-img img-fluid" style={estiloimg} /></a>
+                            <a href="./menu_images/licuadoNB.png"className="glightbox"><img src={licuadoNB} className="menu-img img-fluid" style={estiloDefault} /></a>
                             <h4>Licuados</h4>
                             <p className="ingredients">
                             Fruta, azucar y hielo
@@ -49,10 +55,18 @@ export default function Menu(){
                         </div>
 
                         <div className="col-lg-4 menu-item">
-                            <a href="./menu_images/cafeNB.png" className="glightbox"><img src={menuimg} className="menu-img img-fluid" style={estiloimg} /></a>
-                            <h4>Café</h4>
+                            <a href="./menu_images/churroNB.png" className="glightbox"><img src={churroNB} className="menu-img img-fluid" style={estiloDefault} /></a>
+                            <h4>Churros</h4>
                             <p className="ingredients">
-                            Palitos en el puesto de al lado
+                            Masa y azucar 
+                            </p>
+                        </div>
+
+                        <div className="col-lg-4 menu-item">
+                            <a href="./menu_images/refrescoNB.png" className="glightbox"><img src={refrescoNB} className="menu-img img-fluid" style={estiloRefresco} /></a>
+                            <h4>Refrescos</h4>
+                            <p className="ingredients">
+                            Anda a saber que tienen 
                             </p>
                         </div>
 
